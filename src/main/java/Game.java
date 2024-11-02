@@ -9,7 +9,7 @@ public class Game {
 
     public Player findByName(String playerName) {
         for (Player player : players) {
-            if (player.getName() == playerName) {
+            if (player.getName().equals(playerName)) {
                 return player;
             }
         }
